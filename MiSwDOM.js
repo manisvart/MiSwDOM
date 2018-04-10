@@ -2,7 +2,7 @@
  * Yet another DOM wrapper library
  */
 
-export class Element {
+export default class Element {
     constructor(type, optionalData, optionalDOM) {
         switch (type) {
             case undefined:
