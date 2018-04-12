@@ -23,6 +23,11 @@ export class Element {
     dom() {
         return this._dom;
     }
+	/* Add a text element */
+	addText(text) {
+		this.add(new MiSwDOM.Element("text", text));
+		return this;
+	}
     /*
 	 * Attributes
 	 */
