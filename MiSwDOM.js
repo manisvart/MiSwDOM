@@ -25,7 +25,7 @@ export class Element {
     }
 	/* Add a text element */
 	addText(text) {
-		this.add(new MiSwDOM.Element("text", text));
+		this.add(new Element("text", text));
 		return this;
 	}
     /*
